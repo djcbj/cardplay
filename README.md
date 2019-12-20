@@ -1,4 +1,4 @@
-# cardplay目标文件部署方式
+# 项目后端目标文件部署方式
 ## 1. 部署步骤（Windows本地）：
   1. 将target\jswtc.war文件拷贝到本地tomcat目录apache-tomcat-9.0.26\webapps\ROOT下
   2. 双击apache-tomcat-9.0.26\bin\startup.bat。
