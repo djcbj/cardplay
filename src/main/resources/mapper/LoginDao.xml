@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuanshun.dao.LoginDao">
+    <resultMap id="BaseResultMap2" type="com.yuanshun.entity.Admin">
+        <result column="username" jdbcType="VARCHAR" property="username" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+    </resultMap>
+    <insert id="userInsert" parameterType="com.yuanshun.entity.Admin">
+    insert into admin (username, password) values (#{username},#{password})
+  </insert>
+    <select id="queryPassword" resultType="String" parameterType="com.yuanshun.entity.Admin">
+        SELECT password FROM admin WHERE username = #{username}
+    </select>
+    <select id="queryAll"  resultType="Admin">
+      	 SELECT username,password FROM admin
+	 </select>
+</mapper>

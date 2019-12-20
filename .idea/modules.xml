@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gswtc.iml" filepath="$PROJECT_DIR$/gswtc.iml" />
+    </modules>
+  </component>
+</project>
