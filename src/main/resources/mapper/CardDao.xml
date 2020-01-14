@@ -13,4 +13,16 @@
     <select id="queryurl" resultType="String" parameterType="Integer">
         SELECT url FROM cardinfo WHERE cardid = #{cardid}
     </select>
+    <select id="queryStoreCardlist" resultType="String" parameterType="String">
+        SELECT storecardlist FROM userinfo WHERE username = #{username}
+    </select>
+    <update id="updateStore">
+        UPDATE userinfo SET storecardlist = #{1} WHERE username = #{0}
+    </update>
+    <update id="updateBackpack">
+        UPDATE userinfo SET cardlist = #{1} WHERE username = #{0}
+    </update>
+    <update id="updateMoney">
+        UPDATE userinfo SET money = #{1} WHERE username = #{0}
+    </update>
 </mapper>

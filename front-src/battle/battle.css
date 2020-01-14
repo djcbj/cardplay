@@ -1,0 +1,26 @@
+.nocard {
+    background-image: url("./card.jpg");
+    
+    width:180px;
+    height:180px;
+    display: inline-block;
+}
+.Battle {
+    position: absolute;
+    background-image: url("./bg.jpg");
+    width:900px;
+    height:650px;
+    top:10px;
+    margin-left: 50px;
+}
+.card {
+    display: inline-block;
+}
+.card img{
+    
+    width:180px;
+    height:180px;
+}
+.bordered {
+    border: 5px solid black;
+}

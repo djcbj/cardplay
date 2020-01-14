@@ -1,0 +1,19 @@
+.close {
+    position: relative;
+    left:400px;
+    font-size: 80px;
+}
+.Bag {
+    position: absolute;
+    background-image: url("./bg.jpg");
+    width:900px;
+    height:650px;
+    top:10px;
+    margin-left: 50px;
+}
+.item {
+    display: inline-block;
+    position: relative;
+    top:100px;
+    margin: 10px;
+}
